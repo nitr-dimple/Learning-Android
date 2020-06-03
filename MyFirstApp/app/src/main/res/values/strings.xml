@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="button_name">Show Me!</string>
+    <string name="show_text">Show Name</string>
+</resources>
