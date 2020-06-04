@@ -20,10 +20,14 @@ public class MainActivity extends AppCompatActivity {
         goToSecondButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, secondActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, secondActivity.class);
+                intent.putExtra("Message", "Hello from first Activity");
+                intent.putExtra("SecondMessage", "Hello Again");
+                intent.putExtra("Value", 123);
 
-                startActivity(new Intent(MainActivity.this, secondActivity.class));
+                startActivity(intent);
+
+//                startActivity(new Intent(MainActivity.this, secondActivity.class));
 
             }
         });
