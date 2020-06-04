@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "On Pause Called", Toast.LENGTH_SHORT).show();
 
     }
-
+ 
     @Override
     protected void onStop() {
         super.onStop();
